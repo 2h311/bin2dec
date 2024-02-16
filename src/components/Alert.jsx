@@ -1,6 +1,5 @@
-{
-  /* this aint my code, but i'd handle this abit differently */
-}
+import React from "react";
+
 const Alert = ({ inputBin }) => {
   if (inputBin.value.length > 0) {
     if (!inputBin.binary) {

@@ -1,16 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const Display = ({ inputBin, decNum }) => {
   return (
-    <div className='display'>
+    <div className="display">
       {!inputBin.binary ? (
         <p className="info">
-          <span role='img' aria-label='Shrug'>🤷</span>
-          {" "}Waiting on a valid binary number...
+          <span role="img" aria-label="Shrug">
+            🤷
+          </span>{" "}
+          Waiting on a valid binary number...
         </p>
-      ) : (<p>{decNum}</p>)}
+      ) : (
+        <p>{decNum}</p>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default Display
+export default Display;
