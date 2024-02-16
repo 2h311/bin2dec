@@ -1,0 +1,8 @@
+{
+  "short_name": "Bin2Dec",
+  "name": "Binary2Decimal",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
