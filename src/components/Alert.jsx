@@ -15,10 +15,10 @@ const Alert = ({ inputBin }) => {
         </span>
       );
     } else {
-      return "";
+      return <>&nbsp;</>;
     }
   }
-  return null;
+  return <>&nbsp;</>;
 };
 
 export default Alert;
